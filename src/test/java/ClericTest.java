@@ -1,6 +1,5 @@
-import HealingTool.HealingTool;
-import Melee.Dwarf;
-import Melee.WeaponType;
+import Players.Cleric;
+import Types.HealingTool;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -12,17 +11,22 @@ public class ClericTest {
 
     @Before
     public void before() {
-        cleric = new Cleric(HealingTool.HERBS);
+        cleric = new Cleric(HealingTool.HERBS, 100);
     }
 
     @Test
     public void canGetTool() {
-        assertEquals("HERBS", cleric.getTool());
+        assertEquals(HealingTool.HERBS, cleric.getTool());
     }
 
     @Test
-    public void canChangeWeapon() {
+    public void canGetHealth() {
+        assertEquals(100, cleric.getHealth());
+    }
+
+    @Test
+    public void canChangeTool() {
         cleric.changeTool(HealingTool.FIRSTAIDKIT);
-        assertEquals("FIRSTAIDKIT", cleric.getTool());
+        assertEquals(HealingTool.FIRSTAIDKIT, cleric.getTool());
     }
 }

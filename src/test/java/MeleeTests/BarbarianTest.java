@@ -1,7 +1,7 @@
 package MeleeTests;
 
-import Melee.Barbarian;
-import Melee.WeaponType;
+import Players.Melee.Barbarian;
+import Players.Melee.WeaponType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,7 +13,7 @@ public class BarbarianTest {
 
     @Before
     public void before() {
-        barbarian = new Barbarian(WeaponType.AXE);
+        barbarian = new Barbarian(WeaponType.AXE, 100);
     }
 
     @Test
@@ -25,5 +25,10 @@ public class BarbarianTest {
     public void canChangeWeapon() {
         barbarian.changeWeapon(WeaponType.SWORD);
         assertEquals(WeaponType.SWORD, barbarian.getWeapon());
+    }
+
+    @Test
+    public void canGetHealth() {
+        assertEquals(100, barbarian.getHealth());
     }
 }

@@ -21,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -38,14 +39,27 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="HealingTool" />
       <recent name="Melee" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BarbarianTest">
+  <component name="RunManager" selected="JUnit.WarlockTest">
+    <configuration name="All in FantasyAdventureLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventureLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BarbarianTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventureLab" />
       <extension name="coverage">
@@ -61,23 +75,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BarbarianTest.canGetWeapon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClericTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventureLab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MeleeTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="MeleeTests" />
-      <option name="MAIN_CLASS_NAME" value="MeleeTests.BarbarianTest" />
-      <option name="METHOD_NAME" value="canGetWeapon" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClericTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MeleeTests in FantasyAdventureLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KnightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventureLab" />
       <extension name="coverage">
         <pattern>
@@ -86,16 +93,34 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="MeleeTests" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="MeleeTests.KnightTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WarlockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventureLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BlackMageTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BlackMageTests" />
+      <option name="MAIN_CLASS_NAME" value="BlackMageTests.WarlockTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WarlockTest" />
+        <item itemvalue="JUnit.ClericTest" />
+        <item itemvalue="JUnit.All in FantasyAdventureLab" />
+        <item itemvalue="JUnit.KnightTest" />
         <item itemvalue="JUnit.BarbarianTest" />
-        <item itemvalue="JUnit.MeleeTests in FantasyAdventureLab" />
-        <item itemvalue="JUnit.BarbarianTest.canGetWeapon" />
       </list>
     </recent_temporary>
   </component>
@@ -129,21 +154,49 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1585825735127" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1585828631554">
+    <state x="297" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585836726131">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585828631554" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1585828631552">
+    <state x="297" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1585836726131" />
+    <state x="508" y="316" width="423" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585836775243">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585828631552" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1585828631552">
+    <state x="508" y="316" width="423" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1585836775243" />
+    <state x="433" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585832894784">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585828631552" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1585828631553">
+    <state x="433" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1585832894784" />
+    <state x="472" y="304" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585831845556">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585828631553" />
+    <state x="472" y="304" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1585831845556" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1585832663711">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585832663711" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1585832663710">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585832663710" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1585832663709">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585832663709" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1585832663711">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585832663711" />
+    <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1585836689450">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="258" y="112" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1585836689450" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1585829674659">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585829674659" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585833036957">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1585833036957" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package HealingTool;
+package Types;
 
 public enum HealingTool {
     HERBS,

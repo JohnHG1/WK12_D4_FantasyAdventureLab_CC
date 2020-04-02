@@ -1,7 +1,7 @@
 package MeleeTests;
 
-import Melee.Knight;
-import Melee.WeaponType;
+import Players.Melee.Knight;
+import Players.Melee.WeaponType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,7 +13,7 @@ public class KnightTest {
 
     @Before
     public void before() {
-        knight = new Knight(WeaponType.SWORD);
+        knight = new Knight(WeaponType.SWORD, 100);
     }
 
     @Test
@@ -24,6 +24,11 @@ public class KnightTest {
     @Test
     public void canChangeWeapon() {
         knight.changeWeapon(WeaponType.AXE);
-        assertEquals(WeaponType.MACE, knight.getWeapon());
+        assertEquals(WeaponType.AXE, knight.getWeapon());
+    }
+
+    @Test
+    public void canGetHealth() {
+        assertEquals(100, knight.getHealth());
     }
 }

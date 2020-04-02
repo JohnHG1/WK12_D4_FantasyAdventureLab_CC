@@ -1,7 +1,7 @@
 package MeleeTests;
 
-import Melee.Dwarf;
-import Melee.WeaponType;
+import Players.Melee.Dwarf;
+import Players.Melee.WeaponType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,7 +13,7 @@ public class DwarfTest {
 
     @Before
     public void before() {
-        dwarf = new Dwarf(WeaponType.MACE);
+        dwarf = new Dwarf(WeaponType.MACE, 100);
     }
 
     @Test
@@ -24,6 +24,11 @@ public class DwarfTest {
     @Test
     public void canChangeWeapon() {
         dwarf.changeWeapon(WeaponType.AXE);
-        assertEquals(WeaponType.SWORD, dwarf.getWeapon());
+        assertEquals(WeaponType.AXE, dwarf.getWeapon());
+    }
+
+    @Test
+    public void canGetHealth() {
+        assertEquals(100, dwarf.getHealth());
     }
 }
