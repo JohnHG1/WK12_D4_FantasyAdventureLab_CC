@@ -51,26 +51,11 @@
       <recent name="Melee" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WarlockTest">
+  <component name="RunManager" selected="JUnit.PlayerTest">
     <configuration name="All in FantasyAdventureLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventureLab" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BarbarianTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantasyAdventureLab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MeleeTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="MeleeTests" />
-      <option name="MAIN_CLASS_NAME" value="MeleeTests.BarbarianTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,6 +84,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventureLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WarlockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventureLab" />
       <extension name="coverage">
@@ -116,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlayerTest" />
         <item itemvalue="JUnit.WarlockTest" />
         <item itemvalue="JUnit.ClericTest" />
         <item itemvalue="JUnit.All in FantasyAdventureLab" />
         <item itemvalue="JUnit.KnightTest" />
-        <item itemvalue="JUnit.BarbarianTest" />
       </list>
     </recent_temporary>
   </component>

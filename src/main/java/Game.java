@@ -11,4 +11,12 @@ public class Game {
         this.player = player;
         this.rooms = rooms;
     }
+
+    public Player getPlayer() {
+        return player;
+    }
+
+    public int getRooms() {
+        return this.rooms.size();
+    }
 }

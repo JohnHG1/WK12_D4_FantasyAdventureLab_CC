@@ -1,5 +1,6 @@
 import Players.Melee.Knight;
 import Players.Melee.WeaponType;
+import Players.Player;
 import Types.MonsterType;
 import Types.TreasureType;
 import org.junit.Before;
@@ -14,7 +15,8 @@ public class RoomTest {
 
     @Before
     public void before() {
-        room = new Room(TreasureType.GOLD, MonsterType.GOBLIN);
+        Player player;
+        room = new Room(TreasureType.GOLD, MonsterType.GOBLIN, player);
         knight = new Knight(WeaponType.SWORD, 10);
     }
 
@@ -30,13 +32,17 @@ public class RoomTest {
 
     @Test
     public void startNoPlayers(){
-        assertEquals(0, room.getPlayer().size());
+        assertEquals(0, room.getPlayer());
     }
 
     @Test
     public void canAddPlayer(){
-        assertEquals(1);
+        assertEquals(1, room.getPlayer();
     }
+
+
+
+
 
 
 
