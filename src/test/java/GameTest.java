@@ -17,7 +17,7 @@ public class GameTest {
     ArrayList<Room> rooms;
     Room room1;
 
-    Before
+    @Before
     public void before() {
         player = new Barbarian(WeaponType.AXE, 100);
         rooms = new ArrayList<Room>();

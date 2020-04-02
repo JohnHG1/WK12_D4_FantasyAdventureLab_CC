@@ -11,13 +11,13 @@ import static org.junit.Assert.assertEquals;
 public class RoomTest {
     
     Room room;
-    Knight knight;
+    Player player;
 
     @Before
     public void before() {
-        Player player;
+        player = new Knight(WeaponType.SWORD, 10);
         room = new Room(TreasureType.GOLD, MonsterType.GOBLIN, player);
-        knight = new Knight(WeaponType.SWORD, 10);
+
     }
 
     @Test
@@ -37,7 +37,7 @@ public class RoomTest {
 
     @Test
     public void canAddPlayer(){
-        assertEquals(1, room.getPlayer();
+        assertEquals(1, room.getPlayer());
     }
 
 
